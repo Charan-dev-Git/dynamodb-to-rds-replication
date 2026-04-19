@@ -47,24 +47,8 @@ EventBridge (Scheduler)
 ## 📊 Output
 
 - Data successfully replicated from DynamoDB to PostgreSQL  
-- Verified using DBeaver and CloudWatch logs  
-
-## 📁 Project Structure
-.
-├── lambda/
-│ ├── user_processor/
-│ └── replicator/
-├── dynamodb.tf
-├── rds.tf
-├── lambda.tf
-├── iam.tf
-├── scheduler.tf
-├── provider.tf
-├── variables.tf
-├── outputs.tf
-├── README.md
-
-
+- Verified using DBeaver and CloudWatch logs
+  
 ## ⚠️ Notes
 
 - `terraform.tfvars` is excluded for security reasons  
