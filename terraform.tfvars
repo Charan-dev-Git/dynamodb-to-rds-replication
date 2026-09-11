@@ -1,4 +1,5 @@
 aws_region   = "ap-south-1"
 project_name = "users-sync"
-db_name      = "usersdb"
-db_username  = "postgres"
+db_name      = "users_db"
+db_username  = "postgres" 
+db_password  = "postgres"
